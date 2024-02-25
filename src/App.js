@@ -5,6 +5,7 @@ import Header from './Components/Layout/Header';
 import Footer from './Components/Layout/Footer';
 import Home from './Components/Pages/Home';
 import Create_contract from './Components/Pages/Create_contract';
+import Short from './Components/Pages/Short';
 // import Main from './Components/Pages/Ui/Main';
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
             <Route path="/" element={<Navigate to="/home" />} />
             <Route path="/home" element={<Home />} />
             <Route path="/create-contract" element={<Create_contract  />} />
-
+            <Route path="/short" element={<Short  />} />
           </Routes>
         </div>
 

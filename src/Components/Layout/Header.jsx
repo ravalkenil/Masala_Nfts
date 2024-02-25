@@ -17,8 +17,8 @@ const LINKS = [
     url: "/create-contract",
   },
   {
-    display: "Market Nfts",
-    url: "/market",
+    display: "Short F&Q",
+    url: "/short",
   },
 ];
 
