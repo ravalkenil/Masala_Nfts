@@ -13,8 +13,8 @@ const LINKS = [
     url: "/home",
   },
   {
-    display: "Details",
-    url: "/details",
+    display: "Create contract",
+    url: "/create-contract",
   },
   {
     display: "Market Nfts",

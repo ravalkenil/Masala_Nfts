@@ -3,6 +3,9 @@ import './App.css';
 import { Routes, Route, Navigate } from "react-router-dom";
 import Header from './Components/Layout/Header';
 import Footer from './Components/Layout/Footer';
+import Home from './Components/Pages/Home';
+import Create_contract from './Components/Pages/Create_contract';
+// import Main from './Components/Pages/Ui/Main';
 
 function App() {
   return (
@@ -13,11 +16,10 @@ function App() {
 
         <div style={{ paddingTop: "100px" }}>
           <Routes>
-            {/* <Route path="/" element={<Navigate to="/home" />} />
-            <Route
-              path="/home"
-              element={}
-            /> */}
+            <Route path="/" element={<Navigate to="/home" />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/create-contract" element={<Create_contract  />} />
+
           </Routes>
         </div>
 
