@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,65 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+
+body {
+  background: #17141f !important;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.772);
+
+  line-height: 35px;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+a:hover {
+  color: unset;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+section,
+footer {
+  padding: 60px 0px;
+}
+
+/* =========== custom scroll-bar ========= */
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: #454557;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 2em;
+  background: linear-gradient(-45deg, #969496, #68686e, #f0f0f0, #030303);
+}
+

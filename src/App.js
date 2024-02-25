@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Routes, Route, Navigate } from "react-router-dom";
 import Header from './Components/Layout/Header';
+import Footer from './Components/Layout/Footer';
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
             /> */}
           </Routes>
         </div>
+
+        <Footer />
       </div>
     </div>  
   );
